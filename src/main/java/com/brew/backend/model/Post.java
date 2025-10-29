@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import java.time.LocalDateTime;
 
 @Entity
-public class Article {
+public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
